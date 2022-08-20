@@ -3,16 +3,14 @@ import LogoS from '../../assets/images/logo-s.png'
 import LogoSubtitle from '../../assets/images/logo_sub.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
-  faLinkedin,
   faGithub,
-  faYoutube,
-  faSkype,
+  faWhatsapp,
+  faFacebook,
 } from '@fortawesome/free-brands-svg-icons'
 import {
   faHome,
   faUser,
-  faEnvelope,
-  faSuitcase,
+  faEnvelope
 } from '@fortawesome/free-solid-svg-icons'
 import { Link, NavLink } from 'react-router-dom'
 
@@ -32,13 +30,6 @@ const Sidebar = () => {
         </NavLink>
         <NavLink
           activeclassname="active"
-          className="portfolio-link"
-          to="/portfolio"
-        >
-          <FontAwesomeIcon icon={faSuitcase} color="#4d4d4e" />
-        </NavLink>
-        <NavLink
-          activeclassname="active"
           className="contact-link"
           to="/contact"
         >
@@ -48,12 +39,12 @@ const Sidebar = () => {
       <ul>
         <li>
           <a
-            href="https://www.linkedin.com/in/slobodan-gaji%C4%87-006bb8b8/"
+            href="https://wa.me/233593104435"
             target="_blank"
             rel="noreferrer"
           >
             <FontAwesomeIcon
-              icon={faLinkedin}
+              icon={faWhatsapp}
               color="#4d4d4e"
               className="anchor-icon"
             />
@@ -61,7 +52,7 @@ const Sidebar = () => {
         </li>
         <li>
           <a
-            href="https://github.com/bobangajicsm"
+            href="https://github.com/YounoussaBen"
             target="_blank"
             rel="noreferrer"
           >
@@ -74,21 +65,12 @@ const Sidebar = () => {
         </li>
         <li>
           <a
-            href="https://www.youtube.com/channel/UCBu5ulO4d-d47lAVybpRTkw"
+            href="https://web.facebook.com/profile.php?id=100008961639455"
             rel="noreferrer"
             target="_blank"
           >
             <FontAwesomeIcon
-              icon={faYoutube}
-              color="#4d4d4e"
-              className="anchor-icon"
-            />
-          </a>
-        </li>
-        <li>
-          <a href="skype:live:bobangajicsm" rel="noreferrer" target="_blank">
-            <FontAwesomeIcon
-              icon={faSkype}
+              icon={faFacebook}
               color="#4d4d4e"
               className="anchor-icon"
             />
